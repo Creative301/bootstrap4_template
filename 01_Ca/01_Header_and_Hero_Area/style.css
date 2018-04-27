@@ -1,0 +1,257 @@
+@import 'css/animate.css';
+@import 'css/font-awesome.min.css';
+
+
+/* Base CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color: #000;
+    line-height: 1.2;
+}
+
+/* nav {
+  background: lightblue;
+} */
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    /* zoom text effect */
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  color: #726a84;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 0;
+}
+/* End base CSS */
+
+/* Header area */
+.header-area {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  padding: 0 4%;
+}
+
+.menu-area a.navbar-brand {
+  font-size: 72px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  line-height: 1;
+  padding: 0;
+}
+
+.menu-area .navbar-brand:hover,
+.menu-area .navbar-brand:focus {
+    color: #fff;
+}
+
+.menu-area {
+  position: relative;
+  z-index: 2;
+}
+
+.menu-area #nav .nav-link {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 35px 15px;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+#ca-navbar ul.navbar-nav li > a:hover {
+  color: #fb397d;
+}
+
+.sign-up-button > a {
+  color: #fff;
+  font-weight: 500;
+  display: inline-block;
+  border: 2px solid #a883e9;
+  height: 50px;
+  min-width: 178px;
+  line-height: 46px;
+  text-align: center;
+  border-radius: 24px 24px 24px 0;
+}
+
+.sign-up-button > a:hover {
+  background: #fb397d;  
+  border-color: transparent;
+}
+
+/* Sticky css */
+/* Menu scroll down effect */
+.header-area.sticky {
+  background-color: #884bdf;
+  -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+.header-area.sticky .menu-area .navbar-brand {
+  font-size: 50px;
+}
+
+.header-area.sticky .navbar {
+  padding: 0;
+}
+
+/* Hero area */
+.hero-area {
+  height: 900px;
+  background-image: url(img/welcome-bg.png);
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  background-position: bottom center;
+}
+
+.hero-area:after {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 2px;
+  background-color: #fff;
+  content: '';
+  bottom: 0;
+  z-index: 2;
+}
+
+/* Position the phone */
+.hero-thumb {
+  width: 45%;
+  position: absolute;
+  bottom: -130px;
+  right: 85px;
+  z-index: 9;
+}
+
+.hero-thumb img {
+  height: auto;
+  width: 100%;
+}
+
+.hero-heading > h2 {
+  font-size: 100px;
+  color: #fff;
+  font-weight: 700;
+  position: relative;
+  z-index: 3;
+}
+
+.get-start-area .email {
+  background: #9572e8;
+  height: 50px;
+  max-width: 260px;
+  border: none;
+  border-radius: 24px;
+  padding: 0 15px;
+}
+
+.form-control::-webkit-input-placeholder, .form-control::placeholder {
+  color: #cec1f4;
+  opacity: 1;
+}
+
+.get-start-area .email:focus {
+  border: none;
+  outline-offset: transparent !important;
+}
+
+.get-start-area .submit {
+  background-color: #fb397d;
+  color: #fff;
+  font-weight: 500;
+  display: inline-block;
+  border: none;
+  height: 50px;
+  min-width: 167px;
+  line-height: 50px;
+  border-radius: 24px 24px 24px 0;
+  margin-left: 10px;
+}
+
+.get-start-area .submit:hover {
+  cursor: pointer;
+  background-color: #595DE2;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.hero-heading > h3 {
+  font-size: 332px;
+  position: absolute;
+  top: -134px;
+  font-weight: 900;
+  left: -12px;
+  z-index: -1;
+  color: #fff;
+  opacity: .1;
+}
+
+.hero-heading > p {
+  color: #fff;
+}
+
+.hero-heading {
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+

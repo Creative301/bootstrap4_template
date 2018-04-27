@@ -1,0 +1,194 @@
+@media(min-width: 992px) {
+  .menu-area .navbar-brand {
+    font-size: 42px;
+  }
+
+  .menu_area #nav .nav-link {
+    padding: 35px 7.5px;
+  }
+
+  .sign-up-button > a {
+    font-size: 14px;
+    height: 40px;
+    line-height: 36px;
+    min-width: 152px;
+  }
+
+  .hero-thumb {
+    width: 50%;
+    bottom: -100px;
+    right: 50px;
+  }
+
+  .header-area.sticky .menu-area #nav .nav-link {
+    padding: 23px 7.5px;
+  }
+}
+
+
+@media(min-width: 768px) and (max-width: 991px) {
+  .header-area {
+    padding: 0;
+  }
+
+  .menu-area .navbar-brand {
+    font-size: 48px;
+  }
+
+  .header-area.sticky {
+    height: 50px;
+  }
+
+  .header-area .menu-area #nav .nav-link,
+  .header-area.sticky .menu-area #nav .nav-link {
+      padding: 7.5px 15px;
+  }
+
+  #ca-navbar {
+    padding: 30px;
+    border-radius: 3px;
+    background-color: #5b32b4;
+    text-align: left;
+  }
+
+  .sign-up-button {
+    margin-top: 30px;
+  }
+
+  .hero-thumb {
+    right: 0;
+  }
+
+  .hero-heading {
+    margin-bottom: 70px;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .header-area {
+    padding: 0;
+  }
+
+  .menu-area a.navbar-brand {
+    font-size: 48px;
+  }
+
+  .header-area.sticky {
+    height: 50px;
+  }
+
+  .header-area .menu-area #nav .nav-link,
+  .header-area.sticky .menu-area #nav .nav-link {
+    padding: 5px 15px;
+  }
+
+  /* Background menu */
+  #ca-navbar {
+    padding: 20px;
+    border-radius: 3px;
+    background-color: #5b32b4;
+  }
+
+  .sign-up-button {
+    margin-top: 30px;
+  }
+
+  .sign-up-button > a {
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 36px;
+    min-width: 160px;
+  }
+
+  .hero-heading > h2 {
+    font-size: 48px;
+  }
+
+  .hero-heading > h3 {
+    font-size: 252px;
+    top: -105px;
+    left: -1px;
+  }
+
+  .hero-heading {
+    margin-bottom: 50px;
+  }
+
+  .get-start-area .email {
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  .hero-thumb {
+    width: 90%;
+    bottom: -74px;
+    right: 0;
+  }
+
+  .hero-heading {
+    margin-bottom: 70px;
+  }
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .hero-heading > h2 {
+    font-size: 70px;
+  }
+
+  .hero-heading > h3 {
+    font-size: 284px;
+    top: -139px;
+  }
+
+  .hero-thumb {
+    bottom: -109px;
+    width: 75%;
+  }
+
+  .get-start-area .email {
+    max-width: 370px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .hero-heading > h3 {
+    font-size: 286px;
+  }
+
+  .get-start-area .email {
+    margin-bottom: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
