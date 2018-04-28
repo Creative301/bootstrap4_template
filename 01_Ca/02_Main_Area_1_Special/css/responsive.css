@@ -1,0 +1,75 @@
+@media(min-width: 768px) and (max-width: 991px) {
+  .single-special {
+    padding: 30px 10px;
+  }
+
+  .special_description_area.mt-150 {
+    margin-top: 50px;
+  }
+
+  .section-heading > h2 {
+    font-size: 38px;
+  }
+
+  .special_description_content > h2 {
+    font-size: 30px;
+}
+
+}
+
+
+@media (max-width: 767px) {
+  .section-heading > h2 {
+    font-size: 32px;
+  }
+
+  .special_description_area.mt-150 {
+    margin-top: 50px;
+  }
+
+  .special_description_content > h2 {
+    font-size: 30px;
+  }
+
+  .app-download-area {
+    display: block;
+  }
+
+  .app-download-btn:first-child {
+    margin-right: 0;
+  }
+
+  .app-download-btn {
+    margin-bottom: 20px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
