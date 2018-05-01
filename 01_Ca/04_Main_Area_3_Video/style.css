@@ -1,0 +1,148 @@
+@import 'css/animate.css';
+@import 'css/font-awesome.min.css';
+@import 'css/themify-icons.css';
+@import 'css/ionicons.min.css';
+@import 'css/magnific-popup.css';
+
+
+/* Base CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color: #000;
+    line-height: 1.2;
+}
+
+.section-heading {
+  margin-bottom: 60px;
+}
+
+.mt-150 {
+  margin-top: 150px;
+}
+
+.section_padding_100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    /* zoom text effect */
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  color: #726a84;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.line-shape-white,
+.line-shape {
+    width: 80px;
+    height: 2px;
+    background-color: #fb397d;
+    margin-top: 15px;
+}
+
+.line-shape {
+  margin: auto;
+}
+/* End base CSS */
+
+
+/* Video Area */
+.video-area {
+  position: relative;
+  height: 650px;
+  background-image: url(img/video.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  border: 20px solid #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+}
+
+.video-area:after {
+  position: absolute;
+  content: "";
+  top: -20px;
+  left: -20px;
+  width: calc(100% + 40px);
+  height: calc(100% + 40px);
+  border: 1px solid #f1f4f8;
+  z-index: 2;
+  border-radius: 20px;
+}
+
+.video-area .video-play-btn a {
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  background-color: #fb397d; 
+  text-align: center;
+  display: block;
+  font-size: 36px;
+  line-height: 80px;
+  padding-left: 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.video-area .video-play-btn a:hover {
+  background-color: #a865e1;
+}
+
+/* Video Area End */
+
+
+
+
+
+
+
+
+
+
