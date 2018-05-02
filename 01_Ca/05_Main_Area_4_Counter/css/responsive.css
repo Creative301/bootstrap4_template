@@ -1,0 +1,39 @@
+
+@media (max-width:767px) {
+  .cool_facts_area .col-md-3:last-of-type .single-cool-fact {
+    margin-bottom: 0;
+  }
+
+  .cool_facts_area .single-cool-fact .cool-facts-content {
+    min-width: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
