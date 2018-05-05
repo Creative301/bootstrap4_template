@@ -1,0 +1,134 @@
+@import 'css/animate.css';
+@import 'css/font-awesome.min.css';
+@import 'css/themify-icons.css';
+@import 'css/ionicons.min.css';
+@import 'css/owl.carousel.min.css';
+
+
+/* Base CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color: #000;
+    line-height: 1.2;
+}
+
+.section-heading {
+  margin-bottom: 60px;
+}
+
+.section_padding_0_100 {
+  padding-top: 0;
+  padding-bottom: 100px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    /* zoom text effect */
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  color: #726a84;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.line-shape-white,
+.line-shape {
+    width: 80px;
+    height: 2px;
+    background-color: #fb397d;
+    margin-top: 15px;
+}
+
+.line-shape {
+  margin: auto;
+}
+/* End base CSS */
+
+
+/* Screenshots Area */
+.app_screenshots_slides {
+  padding: 0 6%;
+}
+
+.app_screenshots_slides .single-shot {
+  opacity: .7;
+  -webkit-transform: scale(0.85);
+  transform: scale(.85);
+}
+
+/* Zoom to center img */
+.app_screenshots_slides .center .single-shot {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.app-screenshots-area .owl-dot {
+  height: 11px;
+  width: 11px;
+  border: 2px solid #a49fba; 
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 6px;
+  margin-top: 50px;
+}
+
+.app-screenshots-area .owl-dot.active {
+  background-color: #fb397d;
+  border: transparent;
+}
+
+.app-screenshots-area .owl-dots {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+} 
+/* Screenshots Area End */
+
+
+
+
+
+
+
+
+
+
