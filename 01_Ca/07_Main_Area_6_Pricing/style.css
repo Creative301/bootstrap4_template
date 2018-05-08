@@ -1,0 +1,179 @@
+@import 'css/animate.css';
+@import 'css/font-awesome.min.css';
+@import 'css/themify-icons.css';
+@import 'css/ionicons.min.css';
+
+
+/* Base CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color: #000;
+    line-height: 1.2;
+}
+
+.section-heading {
+  margin-bottom: 60px;
+}
+
+.section_padding_100_70 {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    /* zoom text effect */
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  color: #726a84;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.line-shape-white,
+.line-shape {
+    width: 80px;
+    height: 2px;
+    background-color: #fb397d;
+    margin-top: 15px;
+}
+
+.line-shape {
+  margin: auto;
+}
+/* End base CSS */
+
+
+/* Pricing Plan Area */
+.pricing-plan-area {
+  background: #f5f9fc;
+}
+
+.single-price-plan {
+  background: #fff;
+  border: 1px solid #ebebeb;
+  border-radius: 30px 30px 30px 0;
+  margin: 0 5px;
+  margin-bottom: 30px;
+}
+
+.single-price-plan .package-plan {
+  padding: 40px 0;
+  border-radius: 30px 30px 0 0;
+}
+
+.single-price-plan .package-plan > h5 {
+  color: #5b32b4;
+  font-size: 18px;
+}
+
+.single-price-plan .package-plan .ca-price h4 {
+  color: #fb397d;
+  font-size: 48px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.single-price-plan .package-plan .ca-price span {
+  font-size: 18px;
+  color: #fb397d;
+}
+
+.single-price-plan .plan-button > a {
+  background: #726a84;  
+  padding: 10px 0;  
+  border-bottom-right-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  /* -webkit-transition-duration: 500ms;
+  transition-duration: 500ms; */
+}
+
+.single-price-plan .package-description > p {
+  margin-bottom: 0;
+  line-height: 1;
+  padding: 15px 0;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.single-price-plan .package-description > p:first-child {
+  border-top: 1px solid #ebebeb;
+}
+
+.single-price-plan.active .package-plan,
+.single-price-plan.active .plan-button > a,
+.single-price-plan:hover .plan-button > a {
+    background-color: #a865e1;
+}
+
+.single-price-plan.active .package-plan .ca-price > h4,
+.single-price-plan.active .package-plan .ca-price > span,
+.single-price-plan.active .package-plan > h5,
+.single-price-plan.active .plan-button > a {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pricing Plan Area End */
+
+
+
+
+
+
+
+
+
+
