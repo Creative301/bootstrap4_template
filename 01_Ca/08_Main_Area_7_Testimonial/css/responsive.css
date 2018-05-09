@@ -1,0 +1,21 @@
+@media(min-width: 768px) and (max-width: 991px) {
+  .clients-feedback-area .slick-slide.slick-current img {
+    width: 90px !important;
+    height: 90px !important;
+  }
+}
+
+@media  (max-width: 767px) {
+  .clients-feedback-area .client-description > p {
+    font-size: 18px;
+  }
+  .clients-feedback-area .slick-slide img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .clients-feedback-area .slick-slide.slick-current img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+}
+
