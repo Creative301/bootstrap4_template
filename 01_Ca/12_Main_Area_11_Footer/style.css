@@ -1,0 +1,160 @@
+@import 'css/animate.css';
+@import 'css/font-awesome.min.css';
+@import 'css/themify-icons.css';
+@import 'css/ionicons.min.css';
+
+
+/* Base CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color: #000;
+    line-height: 1.2;
+}
+
+.section-heading {
+  margin-bottom: 60px;
+}
+
+.section_padding_70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    /* zoom text effect */
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  color: #726a84;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.line-shape-white,
+.line-shape {
+    width: 80px;
+    height: 2px;
+    background-color: #fb397d;
+    margin-top: 15px;
+}
+
+.line-shape {
+  margin: auto;
+}
+/* End base CSS */
+
+
+/* Footer Area */
+.footer-text {
+  margin-bottom: 15px;
+}
+
+.footer-text > h2 {
+  color: #5b32b4;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.footer-social-icon > a > i {
+  height: 40px;
+  width: 40px;  
+  background: #9b69e4;
+  font-size: 14px;
+  color: #fff;
+  line-height: 40px;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.footer-social-icon > a > i:hover {
+  background: #fb397d;
+  color: #fff;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.footer-social-icon {
+  margin-bottom: 30px;
+}
+
+.footer-social-icon > a .active {
+  background: #fb397d;
+}
+
+.footer-menu {
+  margin-bottom: 15px;
+}
+
+.footer-menu ul li {
+  display: inline-block;
+}
+
+.footer-menu ul li a {
+  border-right: 1px solid #726a84;
+  display: block;
+  padding: 0 7.5px;
+  color: #726a84;
+}
+
+.footer-menu ul li:last-child a {
+  border-right: none;
+}
+
+.copyright-text > p {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
